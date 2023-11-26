@@ -34,21 +34,17 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
 .medio {
     width: 35%;
 }
-
 .enlaces {
     text-indent: 10px;
 }
-
 .enlaces a {
     padding-left: 20px;
     padding-right: 20px;
 
 }
-
 /* Aqui comienza el footer*/
 .parte1,
 .parte2,
