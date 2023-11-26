@@ -1,0 +1,7 @@
+.bodt{
+    background-color: aqua;
+}
+.imgPrincipal{
+    display: flex;
+    align-items: center;
+}
