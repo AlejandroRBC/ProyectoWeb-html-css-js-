@@ -5,71 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-    <title>FOOTER</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estiloFooterNav.css">
+    <title>CambiarNombre</title>
 </head>
 <body>
-    <style>
-
-        .navbar {
-            background-color: #119DA4; 
-            overflow: hidden;
-            display: flex;
-            align-items: center; 
-            justify-content: flex-end; /* Distribuye los elementos a lo largo del contenedor */
-
-        }
-
-        .navbar a {
-            display: block; 
-            color: #FFFFFF; 
-            text-align: center; 
-            padding: 14px 16px; 
-            text-decoration: none; 
-            font-size: 21px; 
-            font-family: 'Poopins'; 
-        }
-
-        .navbar a:hover {
-            background-color: #0C7489; 
-        }
-
-        .navbar .logo img {
-            width: 100px; 
-            height: auto; 
-            border-radius: 50%;
-        }
-      </style>
 </head>
 <body>
     <div class="navbar">
         <div class="logo">
-        <img src="logo.png" alt="Logo" >
+            <img src="img/logo.png" alt="Logo" >
         </div>
-        <a href="#">INICIO</a>
-        <a href="#">INSTITUCION</a>
-        <a href="#">AREAS</a>
-        <a href="#">IMAGENES</a>
-        <a href="#">CAMPAÑAS</a>
-        <a href="#">INSCRIBETE</a>
+        <div class="medio">
+        </div>
+        <div class="enlaces">
+            <a href="#">INICIO</a>
+            <a href="#">INSTITUCION</a>
+            <a href="#">AREAS</a>
+            <a href="#">IMAGENES</a>
+            <a href="#">CAMPAÑAS</a>
+            <a href="#">INSCRIBETE</a>
+        </div>
     </div>
     
-
+    <!-- Contenido abajo -->
+    <!-- Contenido arriba -->
     <div class="footer">
         <div class="parte1">
-            INSTITUCION 
-            <br>
-            PROGRAMAS
-            <br>
-            IMAGENES
-            <br>
-            CAMPAÑAS
-            <br>
-            INSCRIBIRSE
+            <ul>
+                <li><a href="#">INSTITUCION</a> </li>
+                <li><a href="#">PROGRAMAS</a> </li>
+                <li><a href="#">IMAGENES</a> </li>
+                <li><a href="#">CAMPAÑAS</a> </li>
+                <li><a href="#">INSCRIBIRSE</a> </li>
+            </ul>
         </div>
         <div class="parte2">
-            <img src="logo.png" class="logo" >
+            <img src="img/logo.png" class="logo" >
         </div>
         <div class="parte3">
             Direccion <br>
@@ -81,52 +54,9 @@
             av. Beltran 150 <br>
             730166666<br>
             Team@Chaquetiada.com <br>
-            <img src="iconoFacebook.png" class="icono" >
-            <img src="iconoWhatsapp.png" class="icono" >
+            <img src="img/iconoFacebook.png" class="icono" >
+            <img src="img/iconoWhatsapp.png" class="icono" >
         </div>
-
     </div>
-
-
-    <style>
-        
-        .parte1,.parte2,.parte3
-        {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 25%;
-        }
-        .parte4{
-            display: inline-block;
-            padding-top: 30px;
-            width: 25%;
-        }
-        .icono{
-            border-radius: 50px;
-            width: 50px;
-        }
-        .logo
-        {
-            border-radius: 50px;
-            width: 100px;
-            height: 100px;
-        }
-        .link{
-
-        }
-        .footer{
-            margin-top: 10%; 
-            font-family: 'Poppins', sans-serif;
-            display: flex;
-            bottom: 0;
-            height: 180px;
-            background-color: #040404;
-            color: white;
-            padding-right : 10px;
-            padding-left: 10px;
-            line-height: 30px;
-        }
-    </style>
 </body>
 </html>
