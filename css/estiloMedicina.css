@@ -1,0 +1,220 @@
+.enlaces {
+    text-align: right;
+    margin-left: 10cm;
+}
+.imgPrincipal {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.imgPrincipal h1 {
+    font-size: 4rem;
+    color: #333;
+}
+.navbar {
+    
+    background-color: #bfb800;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.navbar a:hover {
+   
+    background-color: #f6ea00;
+}
+
+.cajai1, .cajai2, .cajai3 {
+    background-color: #ffff7d;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.info h2 {
+    font-size: 2rem;
+}
+
+.info p {
+    font-size: 1.5rem;
+}
+
+
+
+/* Servicios */
+.ser {
+    font-size: 3rem;
+}
+
+.h2ser {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.cajaServ {
+    margin: 0 20px;
+}
+
+.servicios {
+    background-color: #ffffeb;
+    margin: 3% 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease-in-out;
+}
+.servicio-item {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    
+}
+
+
+.servicios:hover {
+    transform: scale(1.05);
+}
+.servicio-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+.servicio-info {
+    flex-grow: 1;
+    padding-left: 10px;
+}
+
+.servicios p {
+    font-size: 1.5rem;
+    margin: 20px;
+}
+
+.servicios h1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.imgs, .imgs2 {
+    max-width: 100%;
+    margin-left: 0;
+}
+
+/* Cajas info */
+.info {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 20px;
+}
+
+
+.cajai1, .cajai2, .cajai3 {
+    width: calc(33.333% - 20px);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    box-sizing: border-box; 
+}
+
+.cajai1, .cajai2, .cajai3 h2 {
+    text-align: center;
+    font-weight: 900;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.cajai1, .cajai2, .cajai3 p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #555;
+}
+
+.cajai1:hover, .cajai2:hover, .cajai3:hover {
+    transform: scale(1.05);
+}
+
+.cajai1 {
+    width: 100%;
+}
+
+.cajai2 {
+    width: 100%;
+}
+
+.cajai3 {
+    width: 100%;
+}
+
+
+.horarios {
+    background-color: #ffffeb;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out; 
+}
+.horarios:hover {
+    transform: scale(1.05);
+}
+
+.logo1 {
+    max-width: 30px;
+    margin-left: 10px;
+    transition: transform 0.3s ease; 
+}
+
+.logo1:hover {
+    transform: scale(1.1); 
+}
+
+
+.footer {
+    border-radius: 10px;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Media Queries para hacer la página más responsiva */
+@media only screen and (min-width: 768px) {
+    .cajaServ {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    .info {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .imgs {
+        margin-left: 3cm;
+    }
+
+    .imgs2 {
+        margin-left: 5cm;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .cajaServ {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .info {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .imgs,
+    .imgs2 {
+        margin-left: 0;
+    }
+}
