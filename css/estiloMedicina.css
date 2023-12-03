@@ -1,16 +1,9 @@
+/*Navbar*/
 .enlaces {
     text-align: right;
     margin-left: 10cm;
 }
-.imgPrincipal {
-    text-align: center;
-    margin-bottom: 20px;
-}
 
-.imgPrincipal h1 {
-    font-size: 4rem;
-    color: #333;
-}
 .navbar {
     
     background-color: #bfb800;
@@ -23,6 +16,25 @@
 .navbar a:hover {
    
     background-color: #f6ea00;
+}
+
+
+
+/* Cajas info */
+.imgPrincipal {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.imgPrincipal h1 {
+    font-size: 4rem;
+    color: #333;
+}
+.info {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 20px;
 }
 
 .cajai1, .cajai2, .cajai3 {
@@ -40,8 +52,44 @@
 .info p {
     font-size: 1.5rem;
 }
+.cajai1, .cajai2, .cajai3 {
+    width: calc(33.333% - 20px);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    box-sizing: border-box; 
+}
 
+.cajai1, .cajai2, .cajai3 h2 {
+    text-align: center;
+    font-weight: 900;
+    color: #333;
+    margin-bottom: 10px;
+}
 
+.cajai1, .cajai2, .cajai3 p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #555;
+}
+
+.cajai1:hover, .cajai2:hover, .cajai3:hover {
+    transform: scale(1.05);
+}
+
+.cajai1 {
+    width: 100%;
+}
+
+.cajai2 {
+    width: 100%;
+}
+
+.cajai3 {
+    width: 100%;
+}
 
 /* Servicios */
 .ser {
@@ -100,53 +148,7 @@
     margin-left: 0;
 }
 
-/* Cajas info */
-.info {
-    display: flex;
-    margin-left: 20px;
-    margin-right: 20px;
-    gap: 20px;
-}
 
-
-.cajai1, .cajai2, .cajai3 {
-    width: calc(33.333% - 20px);
-    padding: 20px;
-    margin: 10px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
-    box-sizing: border-box; 
-}
-
-.cajai1, .cajai2, .cajai3 h2 {
-    text-align: center;
-    font-weight: 900;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.cajai1, .cajai2, .cajai3 p {
-    font-size: 1.6rem;
-    line-height: 1.5;
-    color: #555;
-}
-
-.cajai1:hover, .cajai2:hover, .cajai3:hover {
-    transform: scale(1.05);
-}
-
-.cajai1 {
-    width: 100%;
-}
-
-.cajai2 {
-    width: 100%;
-}
-
-.cajai3 {
-    width: 100%;
-}
 
 
 .horarios {
@@ -161,6 +163,14 @@
     transform: scale(1.05);
 }
 
+.footer {
+    border-radius: 10px;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .logo1 {
     max-width: 30px;
     margin-left: 10px;
@@ -169,16 +179,6 @@
 
 .logo1:hover {
     transform: scale(1.1); 
-}
-
-
-.footer {
-    border-radius: 10px;
-    color: #fff;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 /* Media Queries para hacer la página más responsiva */
