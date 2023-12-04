@@ -1,0 +1,282 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:"Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #201328;
+}
+
+.container {
+    padding: 20px;
+    
+}
+
+.imagen img {
+    max-width: 100%;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.text-block-container {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+
+.hacemo {
+    flex: 2; 
+    max-width: calc(70% - 20px); 
+    padding: 10px;
+    margin: 5px;
+    background-color: #FA7378;
+    border-radius: 8px;
+}
+.deseo{
+    flex: 2; 
+    max-width: calc(40% - 100px); 
+    padding: 10px;
+    margin: 5px;
+    background-color: #FA7378;
+    border-radius: 8px;
+}
+.personal{
+    flex: 2; 
+    max-width: calc(33.33% - 300px); 
+    padding: 10px;
+    margin: 5px;
+    background-color: #FA7378;
+    border-radius: 8px;
+}
+
+.centered-text {
+    height: 50px;
+    margin-top: 10px;
+    background-color: #FA7378;
+    text-align: center;
+    line-height: 50px;
+}
+
+body {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: #FA7378;
+    display: flex;
+    top: 0px;
+    position: sticky;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #201328;
+    font-size: 21px;
+}
+
+.navbar a:hover {
+    background-color: #FA7378;
+}
+
+.navbar img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+.navbar .logo {
+    width: 20%;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 1px;
+    padding-bottom: 20px;
+}
+.medio {
+    width: 30%;
+}
+.enlaces {
+    text-indent: 10px;
+}
+.enlaces a {
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+/* Aqui comienza las tajertas*/
+.container {
+    padding: 20px;
+    
+}
+
+.imagen img {
+    max-width: 100%;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.text-block-container {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+
+.hacemo {
+    flex: 2; 
+    max-width: calc(70% - 20px); 
+    padding: 10px;
+    margin: 5px;
+    background-color: #FA7378;
+    border-radius: 8px;
+}
+.deseo{
+    flex: 2; 
+    max-width: calc(40% - 100px); 
+    padding: 10px;
+    margin: 5px;
+    background-color: #FA7378;
+    border-radius: 8px;
+}
+.personal{
+    flex: 2; 
+    max-width: calc(33.33% - 300px); 
+    padding: 10px;
+    margin: 5px;
+    background-color: #FA7378;
+    border-radius: 8px;
+}
+
+.centered-text {
+    height: 50px;
+    margin-top: 10px;
+    background-color: #FA7378;
+    text-align: center;
+    line-height: 50px;
+}
+/* Aqui comienza los servicios*/
+.estatucontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    flex: 1;
+    max-width: 45%; 
+    margin-bottom: 20px;
+    margin-right: 150px;
+}
+
+.text img {
+    width: 80%; 
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 200px;
+}
+
+.image {
+    flex: 1;
+    max-width: 45%; 
+    margin-bottom: 20px;
+}
+
+.image img {
+    width: 100%; 
+    height: auto;
+    display: block;
+}
+.estatucontainer2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text2 {
+    flex: 1;
+    max-width: 45%; 
+    margin-bottom: 20px;
+    margin-left: 150px;
+}
+
+.text2 img {
+    width: 80%; 
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+    margin-right: 200px;
+}
+
+.image {
+    flex: 1;
+    max-width: 45%; 
+    margin-bottom: 20px;
+}
+
+.image img {
+    width: 100%; 
+    height: auto;
+}  
+/* Aqui comienza el footer*/
+.parte1,
+.parte2,
+.parte3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+
+.parte4 {
+    display: inline-block;
+    padding-top: 30px;
+    width: 25%;
+}
+
+.icono {
+    border-radius: 50px;
+    width: 50px;
+}
+
+.logo {
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+.footer ul{
+    list-style: none;
+}
+.footer a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer {
+    display: flex;
+    margin-bottom: 0%;
+    height: 100%;
+    background-color: #040404;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    line-height: 30px;
+}
+@media (max-width: 600px) {
+    .hacemo,
+    .deseo,
+    .personal {
+        max-width: 100%; 
+    }
+}
