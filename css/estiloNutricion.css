@@ -61,44 +61,23 @@ body {
     text-align: center;
     line-height: 50px;
 }
-
-body {
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-}
-
 .navbar {
     background-color: #FA7378;
-    display: flex;
-    top: 0px;
-    position: sticky;
-    width: 100%;
-    height: 100px;
-    align-items: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    z-index: 1000;
+    height: 140px;
 }
-
-.navbar a {
-    text-decoration: none;
-    color: #201328;
-    font-size: 21px;
-}
-
 .navbar a:hover {
+    background-color: #ed3d43;
+}
+.navbar .logo{
+    margin-bottom: 40px;
+}
+.enlaceAbre-contenido {
     background-color: #FA7378;
 }
 
-.navbar img {
-    width: 100px;
-    height: auto;
-    border-radius: 50%;
-}
-.navbar .logo {
-    width: 20%;
-    padding-left: 40px;
-    padding-right: 20px;
-    padding-top: 1px;
-    padding-bottom: 20px;
-}
 .medio {
     width: 30%;
 }
