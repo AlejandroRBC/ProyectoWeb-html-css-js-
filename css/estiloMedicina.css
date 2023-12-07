@@ -8,6 +8,7 @@
     box-sizing: border-box;
     background-color: #f7f7f7;
     color: #333;
+    
 }
 .navbar {
     background-color: #bfb800;
@@ -240,7 +241,7 @@
 
 .imgs, .imgs2 {
     max-width: 100%;
-    margin-left: 0;
+    margin-left: 6cm;
 }
 
 
