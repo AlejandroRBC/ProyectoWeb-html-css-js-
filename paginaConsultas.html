@@ -7,14 +7,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/estiloFooterNav.css">
-    <title>CambiarNombre</title>
+    <link rel="stylesheet" href="css/estiloConsultas.css">
+    <script src="js/jsConsultas.js"></script>
+    <title>CONSULTAS</title>
+    
 </head>
-<body>
-</head>
-<body>
+
+
+<body >
+
     <nav class="navbar">
-        <div class="logo">
+        <div class="logo1">
             <img src="img/logo.png" alt="Logo">
         </div>
         <div class="medio"></div>
@@ -56,7 +59,59 @@
 
     </nav>
     
-    <!-- Contenido abajo -->
+    
+    <div class="form-container">
+        
+        <div class="div-1">
+            <h1>CONSULTAS</h1>
+        
+            <form id="consultaForm" action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre"  class="f1" placeholder="Ingresa tu nombre">
+                <br>
+    
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo"  class="f1" placeholder="Institucion@gmail.com">
+                <br>
+                <label for="pregunta">Pregunta al Soporte:</label>
+                <textarea id="pregunta" name="pregunta" rows="4"  class="f2" placeholder="..."></textarea>
+                <br>
+                <button type="button" onclick="enviar()" class="f3">Enviar</button>
+            </form>
+        </div>
+        
+        <div class="faq-container">
+            <h1>Preguntas Frecuentes</h1>
+
+            <div class="faq-item">
+                <h2>¿Cuáles son los servicios de rehabilitación que ofrecen?</h2>
+                <p>Nuestra institución ofrece una variedad de servicios de rehabilitación, incluyendo fisioterapia, terapia ocupacional y más. Consulta nuestra sección de Servicios para obtener más detalles.</p>
+            </div>
+
+            <div class="faq-item">
+                <h2>¿Cómo puedo programar una cita para recibir rehabilitación?</h2>
+                <p>Para programar una cita, puedes llamarnos al 730166666 o completar nuestro formulario en línea en la sección de Registro.</p>
+            </div>
+
+            <div class="faq-item">
+                <h2>¿Aceptan seguros médicos?</h2>
+                <p>Sí, aceptamos una variedad de seguros médicos. Por favor, consulta con nuestro personal administrativo para verificar la cobertura de tu seguro.</p>
+            </div>
+            <div class="faq-item">
+                <h2>¿Cuánto tiempo dura una sesión de rehabilitación?</h2>
+                <p>La duración de una sesión de rehabilitación puede variar según el tipo de servicio y las necesidades individuales del paciente. En general, las sesiones suelen durar entre 30 minutos y 1 hora.</p>
+            </div>
+        
+            <div class="faq-item">
+                <h2>¿Necesito una referencia médica para comenzar la rehabilitación?</h2>
+                <p>No siempre es necesario tener una referencia médica para comenzar la rehabilitación. Sin embargo, algunas aseguradoras pueden requerir una. Te recomendamos ponerse en contacto con nosotros para obtener información específica sobre tus circunstancias.</p>
+            </div>
+        </div>
+    </div>
+       
+    
+
+    
     <!-- Contenido arriba -->
     <div class="footer">
         <div class="parte1">
