@@ -1,0 +1,170 @@
+.m{
+    background-image: url(img/fondo1.jpg);
+    font-family:'Poppins',sans-serif;
+}
+
+
+.minavbar {
+    background-color: #119DA4;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    height: 3.5cm;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    
+}
+.minavbar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+            margin: 0;
+}
+
+.minavbar a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 21px;
+}
+
+.minavbar ul li   {
+    display: flexbox;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 21px;
+    margin-right: 20px;
+}
+.minavbar a:hover {
+    background-color: #0C7489;
+}
+
+.minavbar img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+.minavbar .logo {
+    width: 20%;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.miomedio {
+    width: 30%;
+    display: flex;
+}
+.mioenlaces {
+    text-indent: 10px;
+}
+.mioenlaces a {
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.mioenlaceAbre {
+    position: relative;
+    display: inline-block;
+}
+.mioenlaceAbre-contenido {
+    display: none;
+    position: absolute;
+    background-color: #0c7489;
+    margin-top: 5px;
+    margin-left: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    text-align: center;
+}
+.mioenlaceAbre:hover .mioenlaceAbre-contenido {
+    display: block;
+}
+
+.mioenlaceAbre-contenido a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.mioenlaceAbre-contenido a:hover{
+    background-color: #119DA4;
+}
+.miologo1 {
+    width: 20%;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 13px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    transition: transform 0.3s ease; 
+}
+
+.miologo1:hover {
+    transform: scale(1.1); 
+}
+.i5{
+    height: 8.2cm;
+    width: 11cm;
+}
+.i2{
+    height: 25.7cm;
+    width: 35cm;
+}
+
+/* Aqui comienza el footer*/
+.mioparte1,
+.mioparte2,
+.mioparte3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+
+.mioparte4 {
+    display: inline-block;
+    padding-top: 30px;
+    width: 25%;
+}
+
+.mioicono {
+    border-radius: 50px;
+    width: 50px;
+}
+
+.miologo {
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+.miofooter ul{
+    list-style: none;
+}
+.miofooter a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.miofooter {
+    display: flex;
+    margin-bottom: 0%;
+    height: 100%;
+    background-color: #040404;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    line-height: 30px;
+    border-radius: 10px;
+}
+
+
+
+/*---LINKS---*/
+.boxLinks{
+    overflow: visible;
+}
