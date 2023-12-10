@@ -31,36 +31,6 @@
     background-color: #4b1c71;
 }
 
-/*cajas Servicios*/
-.cajaServ{
-    margin-left: 200px;
-    margin-right: 200px;
-}
-.cajaServ :hover{
-    transition-delay: 180ms;
-    background-color: #7f4ca5;
-    color: white;
-}
-
-.servicios{
-    background-color: #fff0ff;
-    
-    margin-top: 3%;
-    margin-bottom: 3%;
-    padding: 5px;
-}
-.servicios p{
-    font-size: 25px;
-    margin: 50px;
-}
-.servicios h1{
-    margin-top: 50px;
-    text-align: center;
-}
-.servicios img{
-    height: 417px;
-    border-radius: 30%;
-}
 /* cajas info */
 .info{
     display: flex;
@@ -69,9 +39,14 @@
     
 }
 .cajai1, .cajai2, .cajai3{
+    border-radius: 50px;
     padding: 40px;
     padding-top: 10px;    
     margin: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.cajai1:hover, .cajai2:hover, .cajai3:hover{
+    transform: scale(1.05);
 
 }
 .cajai1, .cajai2, .cajai3 p {
@@ -80,15 +55,43 @@
 .cajai1, .cajai2, .cajai3 h2{
     text-align: center;
     font-weight: 900;
-}   
-.cajai1{
-    width: 50%;
 }
-.cajai2{
-    width: 40%;
+.cajai1{width: 50%;}.cajai2{width: 40%;}.cajai3{width: 10%;}
+
+/*cajas Servicios*/
+.cajaServ{
+    
+    margin-left: 200px;
+    margin-right: 200px;
+    transition: transform 0.3s ease-in-out;
 }
-.cajai3{
-    width: 10%;
+.cajaServ:hover{
+    transform: scale(1.05);
+
+}
+.cajaServ :hover{
+    transition-delay: 180ms;
+    background-color: #7f4ca5;
+    color: white;
+}
+.cajaServicio img{
+    height: 417px;
+    border-radius: 30%;
+}
+.cajaServicio p{
+    line-height: 1cm;
+    padding: 5%;
+    text-align: justify;
+}
+.cajaServicio { 
+    border-radius: 100px;
+    padding: 3%;
+    margin: 3%; 
+    background-color: #facffa;
+    font-size: 20px;
+}
+.cajaServicio h1{
+    text-align: center;
 }
 .horarios{
     padding-top:    30px;

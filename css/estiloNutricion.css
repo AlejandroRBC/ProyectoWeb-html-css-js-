@@ -6,13 +6,12 @@ body {
     font-family:"Poppins", sans-serif;
     margin: 0;
     padding: 0;
-    text-align: center;
     color: #201328;
 }
 
 .container {
     padding: 20px;
-    
+    text-align: center;
 }
 
 .imagen img {
@@ -26,10 +25,16 @@ body {
     padding: 10px;
     display: flex;
     justify-content: space-between; 
+    transition: transform 0.3s ease-in-out;
+
+}
+.text-block-container :hover{
+    transform: scale(1.05);
 }
 
 
 .hacemo {
+    color: white;
     flex: 2; 
     max-width: calc(70% - 20px); 
     padding: 10px;
@@ -38,6 +43,7 @@ body {
     border-radius: 8px;
 }
 .deseo{
+    color: white;
     flex: 2; 
     max-width: calc(40% - 100px); 
     padding: 10px;
@@ -46,6 +52,7 @@ body {
     border-radius: 8px;
 }
 .personal{
+    color: white;
     flex: 2; 
     max-width: calc(33.33% - 300px); 
     padding: 10px;
@@ -62,11 +69,7 @@ body {
     line-height: 50px;
 }
 .navbar {
-    background-color: #FA7378;
-    padding: 10px 20px;
-    border-radius: 10px;
-    z-index: 1000;
-    height: 140px;
+    background-color: #FA7378; 
 }
 .navbar a:hover {
     background-color: #ed3d43;
@@ -78,17 +81,6 @@ body {
     background-color: #FA7378;
 }
 
-.medio {
-    width: 30%;
-}
-.enlaces {
-    text-indent: 10px;
-}
-.enlaces a {
-    padding-left: 20px;
-    padding-right: 20px;
-
-}
 /* Aqui comienza las tajertas*/
 .container {
     padding: 20px;
@@ -105,19 +97,25 @@ body {
 .text-block-container {
     padding: 10px;
     display: flex;
+    text-align: justify;
     justify-content: space-between; 
+}
+.text-block-container h3{
+ text-align: center;
 }
 
 
 .hacemo {
     flex: 2; 
     max-width: calc(70% - 20px); 
-    padding: 10px;
+    padding: 2%;
     margin: 5px;
     background-color: #FA7378;
     border-radius: 8px;
 }
 .deseo{
+    padding: 2%;
+    
     flex: 2; 
     max-width: calc(40% - 100px); 
     padding: 10px;
@@ -126,6 +124,8 @@ body {
     border-radius: 8px;
 }
 .personal{
+    padding: 2%;
+    
     flex: 2; 
     max-width: calc(33.33% - 300px); 
     padding: 10px;
@@ -147,6 +147,10 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    transition: transform 0.3s ease-in-out;
+}
+.estatucontainer :hover{
+    transform: scale(1.05);
 }
 
 .text {
@@ -208,50 +212,7 @@ body {
     height: auto;
 }  
 /* Aqui comienza el footer*/
-.parte1,
-.parte2,
-.parte3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 25%;
-}
 
-.parte4 {
-    display: inline-block;
-    padding-top: 30px;
-    width: 25%;
-}
-
-.icono {
-    border-radius: 50px;
-    width: 50px;
-}
-
-.logo {
-    border-radius: 50px;
-    width: 100px;
-    height: 100px;
-}
-
-.footer ul{
-    list-style: none;
-}
-.footer a{
-    color: #FFFFFF;
-    text-decoration: none;
-}
-
-.footer {
-    display: flex;
-    margin-bottom: 0%;
-    height: 100%;
-    background-color: #040404;
-    color: white;
-    padding-right: 10px;
-    padding-left: 10px;
-    line-height: 30px;
-}
 @media (max-width: 600px) {
     .hacemo,
     .deseo,

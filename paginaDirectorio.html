@@ -1,20 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/estiloFooterNav.css">
-    <title>Directorio</title>
+    <title>Document</title>
 </head>
-<body>
-</head>
+
 <body>
     <nav class="navbar">
-        <div class="logo">
+        <div class="logo1">
             <img src="img/logo.png" alt="Logo">
         </div>
         <div class="medio"></div>
@@ -22,13 +18,12 @@
             <ul>
                 <li><a href="index.html">INICIO</a></li>
                 <li class="enlaceAbre">
-                    <a >INSTITUCION</a>
+                    <a>INSTITUCION</a>
                     <div class="enlaceAbre-contenido">
                         <a href="paginaMision.html">¿QUIENES SOMOS?<br>MISION</a>
-                        <a href="paginaDirectorio.html">DIRECTORIO</a>
-                    </div>  
+                        <a href="hechoenAngular.html">DIRECTORIO</a>
+                    </div>
                 </li>
-
                 <li class="enlaceAbre">
                     <a>AREAS</a>
                     <div class="enlaceAbre-contenido">
@@ -36,58 +31,182 @@
                         <a href="paginaPsicomotricidad.html">PSICOMOTRICIDAD</a>
                         <a href="paginaMedicina.html">MEDICINA</a>
                         <a href="paginaNutricion.html">NUTRICION</a>
-                        <a href="paginaFisioterapia.html">FISIOTERAPIA</a>
+                        <a href="hechoenAngular.html">FISIOTERAPIA</a>
                         <a href="paginaFonoaudiologia.html">FONOAUDIOLOGIA</a>
-                    </div>  
+                    </div>
                 </li>
-                <li><a href="index.html">IMAGENES</a></li>
-                <li><a href="paginaCampañas.html">CAMPAÑAS</a></li>
+                <li><a href="paginaImagenes.html">IMAGENES</a></li>
                 <li class="enlaceAbre">
                     <a>INSCRIBIRSE</a>
                     <div class="enlaceAbre-contenido">
                         <a href="hechoenAngular.html">RESERVA CITA</a>
-                        <a href="hechoenAngular.html">REGISTRO PACIENTES</a>
                         <a href="paginaConsultas.html">CONSULTAS</a>
-                    </div>  
+                    </div>
                 </li>
-                
             </ul>
         </div>
+    </nav>
 
     </nav>
-    
-    <!-- Contenido abajo -->
-    
+    <h1>
+        <center>
+            hecho en angular
+        </center>
+    </h1>
+    <style>
+        body {
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+        }
 
-    
+        .navbar {
+            background-color: #119DA4;
+            display: flex;
+            position: sticky;
+            top: 0px;
+            width: 100%;
+            align-items: center;
+            justify-content: space-between;
+        }
 
-    <!-- Contenido arriba -->
-    <div class="footer">
-        <div class="parte1">
-            <ul>
-                <li><a href="#">INSTITUCION</a> </li>
-                <li><a href="#">PROGRAMAS</a> </li>
-                <li><a href="#">IMAGENES</a> </li>
-                <li><a href="#">CAMPAÑAS</a> </li>
-                <li><a href="#">INSCRIBIRSE</a> </li>
-            </ul>
-        </div>
-        <div class="parte2">
-            <img src="img/logo.png" class="logo" >
-        </div>
-        <div class="parte3">
-            Direccion <br>
-            Telefonos<br>
-            Email<br>
-            @CopyTeamChaquetas<br>
-        </div>
-        <div class="parte4">
-            av. Beltran 150 <br>
-            730166666<br>
-            Team@Chaquetiada.com <br>
-            <img src="img/iconoFacebook.png" class="icono" >
-            <img src="img/iconoWhatsapp.png" class="icono" >
-        </div>
-    </div>
+        .navbar ul {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: #FFFFFF;
+            font-size: 21px;
+        }
+
+        .navbar ul li {
+            display: flexbox;
+            text-decoration: none;
+            color: #FFFFFF;
+            font-size: 21px;
+            margin-right: 20px;
+        }
+
+        .navbar a:hover {
+            background-color: #0C7489;
+        }
+
+        .navbar img {
+            width: 100px;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .navbar .logo {
+            width: 20%;
+            padding-left: 40px;
+            padding-right: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .medio {
+            width: 30%;
+            display: flex;
+        }
+
+        .enlaces {
+            text-indent: 10px;
+        }
+
+        .enlaces a {
+            padding-left: 20px;
+            padding-right: 20px;
+
+        }
+
+        .enlaceAbre {
+            position: relative;
+            display: inline-block;
+        }
+
+        .enlaceAbre-contenido {
+            display: none;
+            position: absolute;
+            background-color: #0c7489;
+
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            text-align: center;
+        }
+
+        .enlaceAbre:hover .enlaceAbre-contenido {
+            display: block;
+        }
+
+        .enlaceAbre-contenido a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .enlaceAbre-contenido a:hover {
+            background-color: #119DA4;
+        }
+
+        /* Aqui comienza el footer*/
+        .parte1,
+        .parte2,
+        .parte3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 25%;
+        }
+
+        .parte4 {
+            display: inline-block;
+            padding-top: 30px;
+            width: 25%;
+        }
+
+        .icono {
+            border-radius: 50px;
+            width: 50px;
+        }
+
+        .logo {
+            border-radius: 50px;
+            width: 100px;
+            height: 100px;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer a {
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
+        .footer {
+            display: flex;
+            margin-bottom: 0%;
+            height: 100%;
+            background-color: #040404;
+            color: white;
+            padding-right: 10px;
+            padding-left: 10px;
+            line-height: 30px;
+        }
+
+
+
+        /*---LINKS---*/
+        .boxLinks {
+            overflow: visible;
+        }
+    </style>
 </body>
+
 </html>
