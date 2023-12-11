@@ -1,0 +1,68 @@
+
+/**/
+.titulo{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold ;
+}
+.titulo img{
+    margin: 3%;
+    height: 400px;
+}
+/**/
+.infoPrincipal{
+    display: flex;
+    justify-content: space-between;
+}
+.cajita{
+    border-radius: 50px;
+    margin: 20px;
+    padding: 2%;
+    background-color: #119DA4;
+    color: whitesmoke;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 600;
+}
+.cajita h2{ 
+    text-align: center;
+}
+/**/
+.servicios{
+    display: block;
+
+}
+.infoServ{
+    background-color: rebeccapurple ;
+}
+
+
+.cajaServ{
+    background-color: #98e3e7;
+    font-size: 22px;
+    display: flex;
+    border-radius: 100px;
+    margin: 20px;
+    padding: 3%;
+    margin-left:  6%;
+    margin-right: 6%;
+}
+.cajaServ h3{
+    text-align: center;
+}
+.cajaServ p {
+    padding: 4%;
+    font-weight: 500;
+
+}
+.cajaImg img{
+    margin: 20px;
+    height: 250px;
+}
+/**/
+.horarios{
+    background-color: #119DA4;
+    text-align: center;
+    padding: 1%;
+    color: white;
+}

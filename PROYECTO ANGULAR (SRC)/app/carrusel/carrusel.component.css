@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    justify-content: space-between; 
+}
+
+
+.boxBoton {
+    border-style: none;
+    
+    background-color: rgba(0, 0, 0, 0);
+    width: 20%;
+}
+.boxBoton img{
+    
+    height: 100px;
+    width: 100px;
+}
+.boxImg {
+    width: 60%;
+}
+img{
+    width:  350px;
+    height: 350px;
+}

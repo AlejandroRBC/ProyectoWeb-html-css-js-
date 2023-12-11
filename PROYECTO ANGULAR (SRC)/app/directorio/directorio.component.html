@@ -1,0 +1,27 @@
+
+
+<div class="cajaPrincipal">
+
+    <div  class="cajita tarjeta" >
+        <div (click)="seleccionar(docx)" class="cartaPres" *ngFor="let docx of servDoctores.vecDoctores">
+            <div >
+                <img src="{{docx.foto}}" alt="">
+            </div>
+            <div class="infoT">
+                <h1>{{docx.area}}</h1>
+                <p >{{docx.nombre}}</p>
+            </div>
+        </div> 
+    </div>  
+    <div class="cajita mostrar" >
+        <div class="presentacion">
+            <img src="{{doctorSelec.foto}}">
+            <h2>{{doctorSelec.nombre}}</h2>
+            <h3>{{doctorSelec.area}}</h3>
+            <hr>
+            <p>{{doctorSelec.telefono}}</p>
+            <p>{{doctorSelec.email}}</p>
+        </div>
+    </div>
+</div>
+

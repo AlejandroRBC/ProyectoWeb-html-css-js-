@@ -1,0 +1,96 @@
+
+
+.titulo{
+    font-size: 35px;
+    font-weight: bold;
+    background-color: #119da4;
+    text-align: center;
+}
+
+label{
+    margin: 13px;
+
+    font-weight: 700;
+    font-size: 25px;
+}
+.CajaForm{
+    padding: 30px;
+    width: 90%;    
+}
+.fondoForm{
+    background-color: rgb(17, 157, 164,0.3);
+}
+.entrada{
+    
+    
+    margin-left: 10%;
+    height: 40px;
+    width: 80%;
+    
+    border-radius: 30px;
+}
+.cajaAdvertencia{
+    margin: 10px;
+    text-align: center;
+    border-radius: 40px;
+    font-weight: bold;
+    width: 70%;
+    margin-left: 10%;
+    border-style: none;
+    border-color: black;
+    background-color: rgb(255, 116, 116);
+}
+/*SELECCIONES */
+.cajaSelect{
+    height: 35px;
+    border-radius: 40px;
+    margin: 10px;
+}
+.fecha{width: 25%;}.area{width: 85%;}
+/*Botones*/
+.botones{
+    display: flex;
+    justify-content: space-between;
+    padding-inline-start: 25%;
+    padding-inline-end: 25%;
+}
+.botones button{
+    border-radius: 40px;
+    padding: 10px;
+    
+}
+/*TARJETA PRESENTACION*/
+.contenedor {
+    margin: 5%;
+    border-radius: 80px;
+    background-color: rgb(12, 116, 137,0.5);
+    display: flex;
+    padding: 30px;
+    width: 100%;
+}
+.foto img {
+    width:  100%;
+    height: 100%;
+}
+.foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;   
+    height: 100%;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    height: 100%;
+}
+
+/* Aliniacion final*/
+.containerPrincipal {
+    display: flex;
+    margin-right:  7%;
+    
+}
+

@@ -1,0 +1,57 @@
+.cajaPrincipal{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    height: 700px;
+    margin: 3%;
+}
+img{
+    border-radius: 50%;
+    height: 210px;
+    width:  210px;
+}
+.cajita{
+    width: 50%;
+    justify-content: center;
+}
+.tarjeta img{
+    height: 100%;
+}
+/*Tarjeta izquierda */
+.cartaPres{
+    background-color: #119DA4;
+    border-radius: 800px;
+    display: flex;
+    margin: 3%;
+}
+.infoT{
+    color: white;
+    margin-left: 5%;
+
+    font-size: 24px;
+}
+.tarjeta{
+    overflow-y: scroll;
+}
+/*Tarjeta Dercha*/
+.mostrar{
+    background-color: #dcdcdd;
+    margin-left: 40px;
+    border-radius: 80px;
+}
+.presentacion{
+    text-align: center;
+    margin:5%;
+}
+.presentacion img{
+    margin-bottom: 50px;
+}
+.presentacion p {
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+.presentacion h3 {
+    text-decoration: overline;
+    
+}

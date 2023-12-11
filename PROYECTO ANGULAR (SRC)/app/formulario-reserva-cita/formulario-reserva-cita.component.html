@@ -1,0 +1,71 @@
+<div class="containerPrincipal">
+    <div class="CajaForm">
+        <div>
+            <form>
+                <div class="titulo">Datos Personales</div>
+                <div class="fondoForm">
+
+                    <label>Nombres: </label>
+                    <br><input class="entrada" type="text" #nombre> <br>
+                    <div class="cajaAdvertencia" *ngIf="swNombre">inserta tu nombre</div>
+                    <label>Apellido Paterno: </label>
+                    <br><input class="entrada" type="text" #paterno> <br>
+                    <div class="cajaAdvertencia" *ngIf="swPaterno">Inserta un Apellido</div>
+                    <label>Apellido Materno: </label>
+                    <br><input class="entrada" type="text" #materno> <br>
+                    <label>Edad: </label>
+                    <br><input class="entrada" type="number" #edade> <br>
+                    <div class="cajaAdvertencia" *ngIf="swEdad">Pon una edad valida</div>
+                    <br>
+                    <label>Escoge una fecha: </label><br>
+                    <select class="cajaSelect fecha" #dia>
+                        <option value=''>Dia</option>
+                        <option *ngFor="let diax of Dias">{{diax}}</option>
+                    </select>
+                    <select class="cajaSelect fecha" #mes>
+                        <option value=''>Mes</option>
+                        <option *ngFor="let mesx of Meses">{{mesx}}</option>
+                    </select>
+                    <select class="cajaSelect fecha" #anio>
+                        <option value=''>Año</option>
+                        <option *ngFor="let aniox of Anios">{{aniox}}</option>
+                    </select><br>
+
+                    <select class="cajaSelect area" #area #sel (change)="sel.value">
+                        <option value=-1>Seleccione un Area</option>
+                        <option value=0>medicina</option>
+                        <option value=1>nutricion</option>
+                        <option value=2>fisioterapia</option>
+                        <option value=3>psicologia</option>
+                        <option value=4>FonoAudiologia</option>
+                        <option value=5>Psicomotricidad</option>
+                    </select>
+                    <br>
+                    <div class="cajaAdvertencia" *ngIf="swArea">Selecciona un Area</div>
+                    <div class="botones">
+                        <button
+                            (click)="enviar(nombre.value,paterno.value,materno.value,edade.value,dia.value, mes.value, anio.value ,area.value)">Enviar</button>
+                        <button
+                            (click)="nombre.value='';paterno.value='';materno.value='';edade.value='';area.value=''">Borrar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="caja">
+        <div>
+            <div class="contenedor">
+                <div class="foto">
+                    <img [src]="servDoctores.vecDoctores[volverEntero(sel.value)].foto">
+                </div>
+                <div class="info">
+                    <h2>{{servDoctores.vecDoctores[volverEntero(sel.value)].nombre}}</h2>
+                    {{servDoctores.vecDoctores[volverEntero(sel.value)].detalles}}
+                </div>
+            </div>
+        </div>
+        <div>
+            <app-carrusel></app-carrusel>
+        </div>
+    </div>
+</div>
